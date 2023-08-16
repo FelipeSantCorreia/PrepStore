@@ -1,52 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PrepStore - Peças de Carro e Caminhão</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Arquivo CSS para estilização -->
+    
+     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
     <header>
         <h1>PrepStore</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Página Inicial</a></li>
-                <li><a href="#products">Produtos</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#promotions">Promoções</a></li>
-                <li><a href="#about">Sobre nós</a></li>
-            </ul>
-        </nav>
     </header>
+    <nav>
+        <ul>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar...">
+            <button>Buscar</button>
+        </div>
+    </nav>
+    <div class="content">
+        <h2>Serviços Oferecidos</h2>
+        <p>Com orgulho, apresentamos nossos serviços especializados em automóveis e caminhões. Com uma equipe dedicada e experiente, oferecemos o que há de melhor em manutenção, reparos e soluções para garantir o desempenho e a confiabilidade de seus veículos. Conte conosco para atender às suas necessidades automotivas com excelência e qualidade incomparáveis. Seja qual for a sua demanda, estamos aqui para oferecer os melhores serviços para carro e caminhão.
 
-    <section id="home">
-        <h2>Bem-vindo à PrepStore</h2>
-        <!-- Conteúdo da página inicial -->
-    </section>
-
-    <section id="products">
-        <h2>Produtos</h2>
-        <!-- Conteúdo da seção de produtos -->
-    </section>
-
-    <section id="services">
-        <h2>Serviços</h2>
-        <!-- Conteúdo da seção de serviços -->
-    </section>
-
-    <section id="promotions">
-        <h2>Promoções</h2>
-        <!-- Conteúdo da seção de promoções -->
-    </section>
-
-    <section id="about">
-        <h2>Sobre nós</h2>
-        <!-- Conteúdo da seção "Sobre nós" -->
-    </section>
-
-    <footer>
-        <p>&copy; 2023 PrepStore. Todos os direitos reservados.</p>
-    </footer>
+        </p>
+    
+            <h3>Produto 1</h3>
+            <img src="assets/c6503e26d2.webp" class="img-product">
+            <p>kit filtros scania</p>
+            <span class="price">R$360,00</span>
+            <button>Comprar</button>
+        </div>
+        <div class="product">
+            <img src="" class="img-product">
+            <h3>Produto 2</h3>
+            <p>Descrição breve do Produto 2. Ut rhoncus felis vel malesuada vehicula.</p>
+            <span class="price">$79.99</span>
+            <button>Comprar</button>
+        </div>
+        
+        <!-- Seção de Depoimentos -->
+        <h2>Depoimentos de Clientes</h2>
+        <div class="testimonial">
+            <p>"Excelente loja! Encontrei todas as peças que precisava para o meu carro."</p>
+            <span>- Cliente Satisfeito</span>
+        </div>
+        <div class="testimonial">
+            <p>"Atendimento rápido e eficiente. Recomendo a todos."</p>
+            <span>- Outro Cliente Feliz</span>
+        </div>
+        
+        <!-- Formulário de Contato -->
+        <h2>Entre em Contato</h2>
+        <form>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="instagram">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        
+        <!-- Mais conteúdo do site -->
+    </div>
 </body>
 </html>
